@@ -1,9 +1,14 @@
 spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:mysql://localhost:3306/accountsdb
     driverClassName: org.h2.Driver
-    username: sa
-    password:
+    username: root
+    password: root
 
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
@@ -35,6 +40,6 @@ app:
     - name: WesternUnion
       country: INDIA
       active: true
-    - name: MoneyGram UPDATED BR TEST
+    - name: MoneyGram UPDATED BR TEST2
       country: USA
       active: false
