@@ -35,6 +35,6 @@ app:
     - name: WesternUnion
       country: INDIA
       active: true
-    - name: MoneyGram UPDATED
+    - name: MoneyGram UPDATED BR TEST
       country: USA
       active: false
