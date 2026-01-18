@@ -6,7 +6,7 @@ spring:
   #    password:
   datasource:
     url: jdbc:mysql://localhost:3306/accountsdb
-    driverClassName: org.h2.Driver
+#    driverClassName: org.h2.Driver
     username: root
     password: root
 
