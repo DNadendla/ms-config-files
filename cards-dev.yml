@@ -1,0 +1,18 @@
+spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cardsdb?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    driverClassName: org.h2.Driver
+    username: root
+    password: root
+
+  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
